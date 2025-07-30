@@ -1,20 +1,13 @@
-# Packet Sniffer & Intrusion Detection System (IDS)
-A real-time packet sniffer and intrusion detection system (IDS) with a web-based interface using Streamlit. This tool captures network packets, filters them by protocol, detects suspicious activity, and visualizes traffic using graphs.
+# Network Traffic Analysis and Threat Detection Platform
 
-## 📌 Features
-#### ✅ Real-Time Packet Sniffing (TCP, UDP, ICMP, DNS, HTTP)
-#### ✅ Intrusion Detection (Detects DDoS, Port Scans, ICMP Floods)
-#### ✅ Web-Based GUI (Built with Streamlit)
-#### ✅ Graph Visualization (Packet count by IP & Protocol)
-#### ✅ Packet Filtering (Choose which protocols to capture)
-#### ✅ Logging System (Captured packets & intrusions are logged)
+This tool offers a web-based solution for real-time network monitoring and security analysis, featuring a graphical user interface developed with Streamlit for intuitive visualization and inspection of network traffic.
 
-## Installation 
-### 1️⃣ Clone the Repository
-     git clone https://github.com/Neeraj-2625/Sniffing-Tool.git
-### 2️⃣ Install Dependencies 
-    pip install -r requirements.txt
+**Key Capabilities:**
 
-### 3️⃣ Run the Web Interface
-    streamlit run app.py
+*   **Live Packet Capture** It continuously monitors and captures network packets, supporting a range of protocols such as TCP, UDP, ICMP, DNS, and HTTP.
+*   **Threat Identification** The system includes an intrusion detection module that flags malicious activities like Distributed Denial-of-Service (DDoS) attacks, port scanning, and ICMP floods.
+*   **Interactive Web Interface** A user-friendly dashboard built with Streamlit provides seamless interaction with the tool's functionalities.
+*   **Data Visualization** Network traffic data is displayed through graphs, including charts that illustrate the distribution of packets by IP address and protocol.
+*   **Customizable Packet Filtering** Users can select and view specific protocols, enabling a more targeted analysis of network activity.
+*   **Comprehensive Logging** The system keeps detailed records of all captured packets and detected intrusions for subsequent review and analysis.
 
